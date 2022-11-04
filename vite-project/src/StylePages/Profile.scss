@@ -1,12 +1,12 @@
 
 :root {
-  --bg-color: #f5f8ff;;
-  --main-color: #353536;
-  --secondary-color: #8e92a4;
-  --main-text-color: #5d606b;
-  --secondary-dark-color: #9496a5;
-  --tag-color-one: #e0fbf6;
-  --tag-color-text-one: #58c2a9;
+  --bg-color: #424242;
+  --main-color: #fff;
+  --secondary-color: #898989;
+  --main-text-color: #000;
+  --secondary-dark-color: #fff;
+  --tag-color-one: #00efff;
+  --tag-color-text-one: #000;
   --tag-color-two: #ece7fe;
   --tag-color-text-two: #8972f3;
   --tag-color-three: #fde7ea;
@@ -19,7 +19,7 @@
   --box-color-2: #d3e6ff;
   --box-color-3: #ffd9d9;
   --box-color-4: #daffe5;
-  --task-color: #777982;
+  --task-color: #242424;
 }
 
 %flex {
@@ -59,7 +59,7 @@ button {
   max-width: 1200px;
   height: 90vh;
   max-height: 900px;
-  background: #fff;
+  background: whitesmoke;
   border-radius: 4px;
   box-shadow:
   0 0.3px 2.2px rgba(0, 0, 0, 0.011),
@@ -179,12 +179,18 @@ button {
   }
 }
 
-.time { margin-bottom: 6px; opacity: 0.4; font-size: 10px; }
+.time { 
+  margin-bottom: 6px;
+  opacity: 0.4;
+  font-size: 14px;
+  color:  #000;
+}
 
 .task-name { 
-  font-size: 14px; 
+  font-size: 16px; 
   font-weight: 500;
   opacity: 0.6;
+  color:  #000;
 }
 
 .yellow { 
@@ -231,7 +237,7 @@ button {
   
   .header { 
     font-size: 26px; 
-    color: var(--main-color); 
+    color: #383838; 
     margin-top: 30px;
   }
 }

@@ -9,24 +9,34 @@ import '../StylePages/MyCarousel.scss'
 export class MyCarousel extends Component {
     render() {
         return (
-            <div className="div--carousel">
-                <div className="subdiv--carousel">
-                    <Carousel>
-                        <div className="align--carousel">
-                            <img src={saseo}  alt="img Carousel1" />
-                            <p className="legend">Legend 1</p>
+
+            <div className="div--profile">
+
+                <link href="https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap" rel="stylesheet" />
+                <div className="task-manager">
+
+                    <div className="div--carousel">
+                        <div className="subdiv--carousel">
+                            <Carousel>
+                                <div className="align--carousel">
+                                    <img src={saseo}  alt="img Carousel1" />
+                                    <p className="legend">Legend 1</p>
+                                </div>
+                                <div>
+                                    <img src={colorada}  alt="img Carousel2" />
+                                    <p className="legend">Legend 2</p>
+                                </div>
+                                <div>
+                                    <img src={forest}  alt="img Carousel3" />
+                                    <p className="legend">Legend 3</p>
+                                </div>
+                            </Carousel>
                         </div>
-                        <div>
-                            <img src={colorada}  alt="img Carousel2" />
-                            <p className="legend">Legend 2</p>
-                        </div>
-                        <div>
-                            <img src={forest}  alt="img Carousel3" />
-                            <p className="legend">Legend 3</p>
-                        </div>
-                    </Carousel>
+                    </div>
+
                 </div>
             </div>
+
         );
     }
 };
