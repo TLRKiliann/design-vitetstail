@@ -84,8 +84,6 @@ export const NavBar:React.FC = () => {
                 <a href="#" className="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabIndex="-1" id="user-menu-item-1">Settings</a>
                 <a href="#" className="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabIndex="-1" id="user-menu-item-2">Sign out</a>
 
-
-
                 <li className="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabIndex="-1" id="user-menu-item-0">
                   <Link className="tag--link" to='/' >
                     Login
@@ -106,7 +104,6 @@ export const NavBar:React.FC = () => {
                     About
                   </Link>
                 </li>
-
 
               </div>
             </div>

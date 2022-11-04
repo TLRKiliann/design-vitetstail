@@ -2,8 +2,12 @@ import '../StylePages/Animation.scss'
 
 export const Animation = () => {
   return(
-    <div>
-      <h1>Animation</h1>
+    <div className="div--animation">
+      <div class="text">
+         <div class="r">Loading...</div>
+         <div class="g">Loading...</div>
+         <div class="b">Loading...</div>
+      </div>
     </div>
   )
 };
