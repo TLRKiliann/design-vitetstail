@@ -3,10 +3,10 @@ import '../StylePages/Animation.scss'
 export const Animation = () => {
   return(
     <div className="div--animation">
-      <div class="text">
-         <div class="r">Loading...</div>
-         <div class="g">Loading...</div>
-         <div class="b">Loading...</div>
+      <div className="text">
+         <div className="r">Loading...</div>
+         <div className="g">Loading...</div>
+         <div className="b">Loading...</div>
       </div>
     </div>
   )
